@@ -16,7 +16,7 @@ def factorialNoFinal(numero):
 	return r
 
 def main():
-	n=int(raw_input("Introduce el numero para el calculo: "))
+	n=int(input("Introduce el numero para el calculo: "))
 	res=factorialNoFinal(n)
 	if res != -1 :		
 		print (res)

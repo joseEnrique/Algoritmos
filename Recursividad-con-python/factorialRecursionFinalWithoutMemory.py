@@ -22,12 +22,12 @@ def __factorialAux(numero,resultado):
 	return r
 
 def main():
-	n=int(raw_input("Introduce el numero para el calculo: "))
+	n=int(input("Introduce el numero para el calculo: "))
 	res=factorialFinal(n)
 	if res != -1 :		
-		print res
+		print (res)
 	else :
-		print "El numero no puede ser negativo"
+		print ("El numero no puede ser negativo")
 	
 if __name__ == "__main__":
     main()
